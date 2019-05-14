@@ -1,0 +1,11 @@
+[package]
+name = "termrec"
+version = "0.1.0"
+authors = ["Charles Hathaway <chathaway@logrit.com>"]
+edition = "2018"
+
+[dependencies]
+yottadb = { git = "https://gitlab.com/YottaDB/Lang/YDBRust.git" }
+libc = "0.2.51"
+clap = "2.33.0"
+nom = "4.2.3"
